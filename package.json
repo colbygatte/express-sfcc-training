@@ -18,10 +18,11 @@
   "dependencies": {
     "bootstrap": "^4.5",
     "dotenv": "^6.0.0",
+    "ejs": "^3.1.6",
     "express": "^4.16.4",
     "express-router": "0.0.1",
     "jquery": "^3.5.1",
-    "mustache-express": "^1.2.8",
+    "mongoose": "^6.1.7",
     "nodemon": "^1.18.4",
     "popper.js": "^1.16.1",
     "serve-favicon": "^2.5.0"
