@@ -2,6 +2,11 @@ const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 let db;
 
+const UserSchema = new Schema({
+    email: String
+});
+exports.UserModel = mongoose.model('User', UserSchema);
+
 const ProductSchema = new Schema({
     ID: String,
     name: String
